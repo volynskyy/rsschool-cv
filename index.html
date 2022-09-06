@@ -1,0 +1,132 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="en">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Resume</title>
+	<!-- Адаптив -->
+
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500&display=swap"
+		rel="stylesheet">
+
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	</style>
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="img">
+						<img class="image" src="./img/my-photo2.jpg" alt="my-photo">
+					</div>
+					<div class="information">
+						<h1 class="information__name">Dmytro Herasym</h1>
+						<h2 class="information__specialty">FRONT-END DEVELOPER</h2>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<aside class="aside">
+				<div class="container">
+					<div class="aside__contacts">
+						<div class="aside__contacts_title title">CONTACT</div>
+						<ul class="contact__links">
+							<li><a class="telegram" href="https://t.me/Dmyttrro" target="_blank">Telegram</a></li>
+							<li><a class="phone" href="tel:+380953125702" target="_blank">Phone</a></li>
+							<li><a class="email" href="mailto:studentdima21@gmail.com" target="_blank">E-mail</a></li>
+						</ul>
+					</div>
+					<div class="aside__skill">
+						<div class="aside__contacts_title title">SKILLS</div>
+						<ul class="skill__item">
+							<li class="html"><img class="html" src="./img/skills/html.svg" alt="html"></li>
+							<li class="html"><img class="css" src="./img/skills/css.svg" alt="css"></li>
+							<li class="html"><img class="js" src="./img/skills/js.svg" alt="js"></li>
+							<li class="html"><img class="git" src="./img/skills/git.svg" alt="git" width="56" height="55"></li>
+							<!-- <li class="html"><img class="react" src="./img/skills/react.svg" alt="react" width="56" height="55"></li>/ -->
+						</ul>
+
+					</div>
+					<div class="aside__contacts">
+						<div class="aside__contacts_title title">EDUCATION</div>
+						<ul class="contact__links">
+							<li><a class="school" href="https://rs.school/js-stage0/" target="_blank">RS School</a></li>
+							<li><a class="phone" href="https://www.youtube.com/c/FreelancerLifeStyle/featured"
+									target="_blank">FreelancerLifeStyle</a></li>
+						</ul>
+					</div>
+					<div class="aside__language">
+						<div class="aside__contacts_title title">LANGUAGES</div>
+						<p class="language">Ukrainian - native speaker</p>
+						<p class="language">English - A2 (B1 in proccess...)</p>
+					</div>
+				</div>
+			</aside>
+			<section class="main__content">
+				<h3 class="main-title">me</h3>
+				<p class="main__description">
+					Dmytro, 23 years old. The goal is to become a front-end developer and also make a trip around the world in 80 days.
+				</p>
+				<h3 class="main-title">Experience</h3>
+				<div class="item__link">
+					<a class="item" href="https://dmytro-herasym.github.io/Biomechanics/" target="_blank"><img
+							class="item__portfolio" src="./img/portfolio/Screenshot_1.png" alt="Portofolio_1" width="500"
+							height="300"></a>
+					<a class="item" href="https://dmytro-herasym.github.io/build3/" target="_blank"><img class="item__portfolio"
+							src="./img/portfolio/Screenshot_2.png" alt="Portofolio_2" width="500" height="300"></a>
+					<a class="item" href="https://dmytro-herasym.github.io/Jesse-Pinkman/" target="_blank"><img
+							class="item__portfolio" src="./img/portfolio/Screenshot_5.png" alt="Portofolio_5" width="500"
+							height="300"></a>
+				</div>
+				<div class="code">
+					<h3 class="main-title">Example</h3>	
+					<code class="my-code">
+						const arr = x => {
+						const str = x.map(el => {
+						return {[el[0]]: el[1]}
+						});
+						return str
+						};
+					</code>
+				</div>
+			</section>
+		</main>
+		<div></div>
+		<div></div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__left">
+						<a href="https://github.com/Dmytro-Herasym" target="_blank"><img class="github"
+								src="./img/footer/Github.svg" alt="GitHub"></a>
+					</div>
+					<div class="footer__center">
+						<p class="creating">2022</p>
+					</div>
+					<div class="footer__right">
+						<a class="item" href="https://rs.school/" target="_blank"><img class="rsschool-logo"
+								src="./img/footer/rs_school.svg" alt="rsschool" width="200" height="100"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
