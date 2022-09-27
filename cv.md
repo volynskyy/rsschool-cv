@@ -1,7 +1,7 @@
 # Dmytro Herasym
 
 ## Contacts
-* **location:** Lutsk, Ukraine 
+* **location:** Ukraine 
 * **phone:** +38-095-312-57-02 
 * **Email:** herasymdmytro21@gmail.com
 * **Telegram:** https://t.me/Dmyttrro
