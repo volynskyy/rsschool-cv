@@ -2,9 +2,9 @@
 
 ## Contacts
 * **location:** Lutsk, Ukraine 
-* **phone:** +38-095-312-57-02 
-* **Email:** herasymdmytro21@gmail.com
-* **Telegram:** https://t.me/Dmyttrro
+* **phone:** +38-095-241-57-02 
+* **Email:** herasymdmytro22@gmail.com
+* **Telegram:** https://t.me/Dmytrro
 * **Discord:** Flokki#1319
 * **GitHub:** Dmytro-Herasym
 
